@@ -477,6 +477,53 @@ ul {
   background-color: var(--accent-color);
 }
 
+.subscription {
+  margin-left: auto;
+  padding-top: 56px;
+}
+
+.subscription-title {
+  display: inline-block;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.subscription-input {
+  width: 358px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  background-color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.subscription-button {
+  display: inline-flex;
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  align-items: center;
+
+  padding: 10px 28px;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: transparent;
+}
+
+.subscription-button::after {
+  content: "";
+  display: inline-flex;
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  background: url(../images/subscription-icon.svg);
+  background-size: contain;
+}
+
 .developed-by {
   margin-top: 0;
   margin-bottom: 0;
